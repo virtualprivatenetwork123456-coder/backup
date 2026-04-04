@@ -38,7 +38,7 @@ Due to GitHub limitations, the `server.jar` file is not included in this reposit
 Use this command:
 
 ```bash id="wget2"
-wget -O server.jar "https://drive.usercontent.google.com/download?id=1klzSyu4OXYCUnjiBSP3OhG3VKrCViWXv&export=download&authuser=0&confirm=t&uuid=4553aee5-1c3c-46a3-8521-99fc4a843037&at=AGN2oQ3yGmeFGkD0S9nJUE_umNTd%3A1775298720099"
+wget -O server.jar "[https://drive.usercontent.google.com/download?id=1klzSyu4OXYCUnjiBSP3OhG3VKrCViWXv&export=download&authuser=0&confirm=t&uuid=4553aee5-1c3c-46a3-8521-99fc4a843037&at=AGN2oQ3yGmeFGkD0S9nJUE_umNTd%3A1775298720099](https://download1510.mediafire.com/73h634b10bwgRRy80rNe7hdU_mykm6134s66pHESOB1nQB47F9ULqFwS8l_RuqH9j7Jjfip1nuVP0qgfLOf5-VQMHIBU0BrLHEC6EtossLFp0G-Bk_fTln9LKOsFksVYKCXyeCSlMN0ESDNZTAtlPj28anOThaZASc7qvyh4UpF1bg/8p129jp3p3hzkh9/server.jar)"
 ```
 
 ---
