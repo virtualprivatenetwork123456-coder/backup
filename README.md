@@ -67,7 +67,7 @@ server.jar
 ### ▶️ Run Server (No Script Needed)
 
 ```bash id="run2"
-java -Xms16G -Xmx16G -jar server.jar nogui
+java -Xms15G -Xmx15G -jar server.jar nogui
 ```
 
 ---
