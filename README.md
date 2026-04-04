@@ -18,16 +18,55 @@ This project is completely plug-and-play — no setup hassle required. Just run 
 
 ---
 
-### 🛠 Requirements
+### ⚙️ Important Setup Requirement
 
-* Java (latest version recommended)
-* 💾 **16GB RAM (allocated for high performance servers)**
+Before starting the server, make sure your **GitHub Codespace** is configured with:
+
+* 🖥 **4 Core CPU**
+* 💾 **16GB RAM Machine**
+
+This ensures smooth performance and prevents crashes or lag.
+
+---
+
+### ⬇️ Download Server.jar
+
+Due to GitHub limitations, the `server.jar` file is not included in this repository.
+
+#### ▶️ Download Purpur 1.21.1 (Recommended)
+
+Use this command:
+
+```bash id="wget2"
+wget -O server.jar "https://drive.usercontent.google.com/download?id=1klzSyu4OXYCUnjiBSP3OhG3VKrCViWXv&export=download&authuser=0&confirm=t&uuid=4553aee5-1c3c-46a3-8521-99fc4a843037&at=AGN2oQ3yGmeFGkD0S9nJUE_umNTd%3A1775298720099"
+```
+
+---
+
+### 🔄 Use Other Server Software (Optional)
+
+If you want to use different software like:
+
+* Vanilla
+* Paper
+* Spigot
+* Any other fork
+
+#### Steps:
+
+1. Download your preferred server `.jar` file from the official source
+2. Move it into the server folder
+3. Rename the file to:
+
+```bash id="rename2"
+server.jar
+```
 
 ---
 
 ### ▶️ Run Server (No Script Needed)
 
-```bash
+```bash id="run2"
 java -Xms16G -Xmx16G -jar server.jar nogui
 ```
 
@@ -36,15 +75,24 @@ java -Xms16G -Xmx16G -jar server.jar nogui
 ### 📌 Setup Steps
 
 1. Download or clone this repository
-2. Open terminal in the server folder
-3. Run the command above
-4. Server will start instantly (EULA already accepted)
+2. Download `server.jar` using the method above
+3. Ensure Codespace is set to 4 Core & 16GB RAM
+4. Open terminal in the server folder
+5. Run the server command
+6. Server will start instantly (EULA already accepted)
+
+---
+
+### ⚠️ Important Note
+
+If you download the server `.jar` from any other source, **make sure to rename it to `server.jar`**, otherwise the run command will not work.
 
 ---
 
 ### 👤 Credits
 
 * **Created by:** ZeniFexXHere
+* **Server Software:** Purpur
 
 ---
 
